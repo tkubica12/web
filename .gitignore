@@ -1,2 +1,6 @@
 src/
 pkg/
+version1/src/
+version1/pkg
+version2/src/
+version2/pkg

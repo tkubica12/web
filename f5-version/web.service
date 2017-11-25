@@ -1,0 +1,9 @@
+[Unit]
+Description=web service
+After=network
+
+[Service]
+ExecStart=/opt/f5web
+
+[Install]
+WantedBy=multi-user.target

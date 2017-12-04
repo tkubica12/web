@@ -1,0 +1,9 @@
+[Unit]
+Description=web service
+After=network
+
+[Service]
+ExecStart=/opt/form
+
+[Install]
+WantedBy=multi-user.target
